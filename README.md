@@ -2,7 +2,7 @@
 
 ```sh
 $ git clone
-$ cd edookit-chat-ui
+$ cd edookit-chat-resources
 $ yarn install
 $ yarn start
 
