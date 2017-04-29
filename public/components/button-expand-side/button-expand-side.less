@@ -1,0 +1,20 @@
+@import "~config";
+
+.button-expand-side {
+  display: flex;
+  align-items: center;
+  background: #fafafa;
+  border: 1px solid @border;
+  border-radius: @borderRadius 0 0 @borderRadius;
+  width: 60px;
+  height: 40px;
+
+  .icon-svg {
+    position: absolute;
+    left: 12px;
+    top: ~"calc(50% - 10px)";
+    width: 24px;
+    height: 20px;
+    fill: #5CA0D7;
+  }
+}
